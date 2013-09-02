@@ -87,8 +87,8 @@ the following fields.
     * **twitter**: Your twitter handle
 * **style**: An optional stylesheet to load
 * **output**: A location to save the rendered document (default: *FILENAME-cleaver.html*)
-* **controls**: A boolean representing whether or not arrow buttons should be included (default: *true*)
-* **agenda**: A boolean representing whether or not to create an agenda slide after the title (default: *false*). These will be generated based on the titles of your other slides.
+* **controls**: Option whether or not arrow buttons should be included (default: *true*)
+* **agenda**: Option whether or not to insert an agenda slide (similar to a table of contents) after the title (default: *false*)
 
 If author is included, the following slide will be automatically inserted
 at the end of your presentation:
@@ -132,13 +132,7 @@ Or click the buttons
 
 * Fork it
 * Clone it
-* Install dependencies if you don't have them already
-
-        npm install q
-        npm install node-markdown
-        npm install js-yaml
-        npm install mustache
-
+* Install dependencies (`npm install`)
 * Checkout a release branch (`git checkout -b feature/cool-wordart`)
 * Make changes, commit, and push
 * Open a pull request!
